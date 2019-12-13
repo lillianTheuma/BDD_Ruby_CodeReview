@@ -17,11 +17,6 @@ class Anagram
       end
     end
 
-    if ((text_a.length == 0) && (compare_a.length == 0))
-      puts("#{text_a.length}\n")
-      return [true, @text.length]
-    else
-      return [false, (@text.length - text_a.length)]
-    end
+    return [((text_a.length == 0) && (compare_a.length == 0)), (@text.length - text_a.length)]
   end
 end
