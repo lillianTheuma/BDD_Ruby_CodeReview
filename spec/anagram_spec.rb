@@ -11,7 +11,7 @@ describe('String#anagram') do
     expect(anagram.anagram('tsET')).to(eq([true,4]))
   end
   it('should return [false, 3] if given two strings that are not anagrams, but have 3 letters in common') do
-    anagram = Anagram.new('tsat')
+    anagram = Anagram.new('tset')
     expect(anagram.anagram('tast')).to(eq([false,3]))
   end
   it('should return [false, 0] if given two strings that are not anagrams, and have no letters in common') do
