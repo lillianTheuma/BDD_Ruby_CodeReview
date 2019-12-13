@@ -4,7 +4,7 @@ if ("#{ARGV[0]}" == "-man")
   puts `cat ./doc/anagram.md`
 else
   anagram = Anagram.new("#{ARGV[0]}","#{ARGV[1]}")
-  response = anagram.anagram
+  response = anagram.anagram?
 
   if (response[0])
     puts("#{ARGV[1]} is an anagram of #{ARGV[0]}")

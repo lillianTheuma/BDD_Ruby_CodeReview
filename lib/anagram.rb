@@ -6,7 +6,7 @@ class Anagram
     @word1 = word1
     @word2 = word2
   end
-  def anagram()
+  def anagram?()
     #removes takes text, downcases, removes non-letters, turns it to an array so I can sort it, then turns it back to a string.
     word1_local = @word1.downcase.gsub(/[^a-z]/, '').split('').sort.join('')
     word2_local = @word2.downcase.gsub(/[^a-z]/, '').split('').sort.join('')
