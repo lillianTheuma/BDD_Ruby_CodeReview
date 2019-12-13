@@ -1,7 +1,7 @@
-### Super Galactic Age Calculator
+### Anagram Detection Method
 
-# StellarAge - Lillian Theuma
-This portfolio is presented as a solution to the project guidelines described in
+# Anagram Check - Lillian Theuma
+This repository is presented as a method used to determine whether two words are anagrams (i.e. made up of the same letters).
 
 # TABLE OF CONTENTS
 ```
@@ -18,16 +18,19 @@ This portfolio is presented as a solution to the project guidelines described in
 ```
 ## Repository
 
+https://github.com/lillianTheuma/BDD_Ruby_CodeReview/
+
 ## Requirements
 
-## Setup with GIT
+Ruby must be installed on your machine.
+https://www.ruby-lang.org/en/downloads/
 
+## Setup
 
-```
-git clone https://github.com/lillianTheuma/
-```
+Download project directory in a location of your choosing.
 
-## Setup without GIT
+Note: Directory structure must remain intact, or it will not work.
+
 
 # Usage
 Navigate to local directory. The following are command options.
