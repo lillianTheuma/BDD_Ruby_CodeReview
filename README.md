@@ -8,8 +8,6 @@ This repository is presented as a method used to determine whether two words are
 - GITHUB repository
 - Requirements
 - Setup
-  - Setup with GIT
-  - Setup without GIT
 - Usage
 - Documentation
   -specs
@@ -55,8 +53,20 @@ rspec
 
 
 # Documentation
-## Specs
 
+## Classes
+  Anagram
+  variables:
+  string word1
+  string word2
+### Methods
+
+  anagram?
+  arguments: None
+
+  return: [boolean is_anagram?, int matching_word_count]
+
+  refers to word1 and word2 from its own object. is_anagram? is true if the strings are anagrams (made up of the same letters). matching_word_count is equal to the number of letters matching across the two, regardless of whether is_anagram? is true.
 
 # License
 * This repository is offered under the MIT license
