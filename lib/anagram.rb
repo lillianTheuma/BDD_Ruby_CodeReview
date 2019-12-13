@@ -16,7 +16,7 @@ class Anagram
         text_a.sub!(letter,"")
       end
     end
-
+    #returns an array. First element resolves to a boolean (whether or not an anagram), second element resolves to an int (number of letters in common)
     return [((text_a.length == 0) && (compare_a.length == 0)), (@text.length - text_a.length)]
   end
 end
