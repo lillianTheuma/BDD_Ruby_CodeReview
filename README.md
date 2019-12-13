@@ -35,6 +35,12 @@ Note: Directory structure must remain intact, or it will not work.
 # Usage
 Navigate to local directory. The following are command options.
 
+View man page for anagramCheck.rb:
+
+```
+ruby anagramCheck.rb -man
+```
+
 Run the script:
 
 ```
